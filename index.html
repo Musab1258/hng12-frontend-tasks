@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="./Musab.jpg" alt="Profile Picture" data-testid="profilePicture">
+    
+    <!-- Full Name -->
+    <h2 data-testid="fullName">Musab Habeeb</h2>
+    
+    <!-- Job Title -->
+    <h3 data-testid="jobTitle">Frontend Developer</h3>
+    
+    <!-- Short Bio (50-100 words) -->
+    <p data-testid="shortBio">
+        I’m a software engineer and technical writer, passionate about solving problems with code and transforming ideas from pixels to scalable products. I create usable applications with user experience as a top priority using various web tools, languages, and technology. I also write technical articles to help software developers learn various concepts or get unstuck while facing any problems in their code.
+    </p>
+    
+    <!-- Current Location -->
+    <p data-testid="currentLocation"><strong>Location:</strong> Lagos, Nigeria</p>
+    
+    <!-- Email Address -->
+    <p data-testid="emailAddress"><strong>Email:</strong> habeebmusab@gmail.com </p>
+    
+    <!-- Social Links -->
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://linkedin.com/in/musab-habeeb" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Musab1258" target="_blank">GitHub</a>
+      <a href="https://twitter.com/MusabHabeeb2" target="_blank">Twitter</a>
+    </div>
+    
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC"><strong>UTC Time:</strong> <span id="utcTime"></span></p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
