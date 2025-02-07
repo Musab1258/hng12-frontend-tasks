@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <img src="./Musab.jpg" alt="Profile Picture" data-testid="profilePicture">
+    
+    <!-- Full Name -->
+    <h2 data-testid="fullName">Musab Habeeb</h2>
+    
+    <!-- Job Title -->
+    <h3 data-testid="jobTitle">Frontend Developer Intern</h3>
+    
+    <!-- Short Bio (50-100 words) -->
+    <p data-testid="shortBio">
+      I am a passionate frontend developer with a keen eye for detail and a drive to create intuitive user experiences.
+      With a background in design and a love for coding, I continuously seek to improve my skills and push the boundaries
+      of web development. I believe in lifelong learning and the power of technology to transform lives.
+    </p>
+    
+    <!-- Current Location -->
+    <p data-testid="currentLocation"><strong>Location:</strong> Lagos, Nigeria</p>
+    
+    <!-- Email Address -->
+    <p data-testid="emailAddress"><strong>Email:</strong> habeebmusab@gmail.com </p>
+    
+    <!-- Social Links -->
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://linkedin.com/in/musab-habeeb" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Musab1258" target="_blank">GitHub</a>
+      <a href="https://twitter.com/MusabHabeeb2" target="_blank">Twitter</a>
+    </div>
+    
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC"><strong>UTC Time:</strong> <span id="utcTime"></span></p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
