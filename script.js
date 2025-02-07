@@ -4,4 +4,6 @@ function updateUTCTime() {
     document.getElementById('utcTime').innerText = now.toUTCString();
 }
 
+setInterval(updateUTCTime, 1000);
+
 updateUTCTime();
